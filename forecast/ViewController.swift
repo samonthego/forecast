@@ -146,7 +146,7 @@ class ViewController: UIViewController {
         DispatchQueue.main.async {
             self.temperatureLabel.text = self.weatherText
             self.weatherImageView.image = UIImage(named: (self.iconImage))
-        //    UIApplication.shared.isNetworkActivityIndicatorVisible = false
+            UIApplication.shared.isNetworkActivityIndicatorVisible = false
         
         }
     }
